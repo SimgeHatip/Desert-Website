@@ -1,0 +1,142 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <!-- Theme Made By www.w3schools.com - No Copyright -->
+    <title>DELİGHT</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+      .w3-half img:hover{opacity:1}
+    </style>
+  </head>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#myPage">DELİGHT</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+           <li><a href="index.html">Anasayfa</a></li>
+           <li><a href="about.html">Hakkımızda</a></li>
+           <li><a href="product.html">Ürünlerimiz</a></li>
+           <li><a href="sube.html">Şubeler</a></li>
+           <li><a href="contact.html">İletişim</a></li>
+           <li><a href="galeri.html">Galeri</a></li>
+           <li><button style="padding-top: 13px;" class="btn" data-toggle="modal"><a href="login.html">GİRİŞ YAP | ÜYE OL</a>
+           </li>
+           <li><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+         </ul>
+       </div>
+     </div>
+   </nav>
+   <!-- Wrapper for slides -->
+   <div class="carousel-inner">
+    <div class="item active">
+      <img src="img/6.jpg" width="1200" height="700">
+      <div class="carousel-caption">
+        <h3>GALERİ</h3>
+      </div>      
+    </div>
+  </div>
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding" style=" padding-left: 238px; padding-top: 30px; padding-bottom: 60px;"  >
+    <div class="w3-half" style="width: 416px; padding-left: 8px;">
+      <img src="img/4.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+      <img src="img/7.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+      <img src="img/8.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
+    </div>
+
+    <div class="w3-half" style="width: 620px; padding-left: 8px;">
+      <img src="img/9.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
+      <img src="img/8.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
+
+    </div>
+
+    <div class="w3-half" style="width: 416px; padding-left: 8px;">
+      <img src="img/9.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
+      <img src="img/8.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
+      <img src="img/7.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
+    </div>
+
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+  <!-- End page content -->
+</div>
+<!-- Footer -->
+<footer>
+  <a href="galeri.html">
+    <span class="glyphicon glyphicon-chevron-up" style="padding-left: 50%;"></span></a><br><br><br>      
+    <div class="row"  style="height: 50%;">
+      <div class="col-md-4" style="padding-left: 15%;">
+        <p>BİZİMLE PAYLAŞ !</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span>Antalya,TURKEY</p>
+        <p><span class="glyphicon glyphicon-phone"></span>Phone:0555 555 55 55</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> Email: mail@mail.com</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <a href="index.html"><img src="img/logo.png"></a>
+        <h2><a href="index.html"> DELİGHT</a></h2><br>
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <div class="col-md-4 text-center">
+            <a target="blank" href="http://Instagram.com/" target=new class="fab fa-instagram"></a>
+          </div>
+          <div class="col-md-4 text-center">
+            <a target="blank" href="http://facebook.com" class="fab fa-facebook"></a>
+          </div>
+          <div class="col-md-4 text-center">
+            <a target="blank" href="http://twitter.com" class="fab fa-twitter"></a>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-4" style="padding-left: 10%;">
+        <p  style="padding-left: 7%;">SAYFALAR</p>
+        <ul>
+          <li><a href="about.html"> Hakkımızda</a></li>
+          <li><a href="product.html">Ürünlerimiz</a></li>
+          <li><a href="sube.html">Şubeler</a></li>
+          <li><a href="contact.html">İletişim</a></li>
+          <li><a href="galeri.html">Galeri</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>

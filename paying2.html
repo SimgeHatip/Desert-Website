@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Theme Made By www.w3schools.com - No Copyright -->
+	<title>DELİGHT</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="index.html">DELİGHT</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Anasayfa</a></li>
+					<li><a href="about.html">Hakkımızda</a></li>
+					<li><a href="product.html">Ürünlerimiz</a></li>
+					<li><a href="sube.html">Şubeler</a></li>
+					<li><a href="contact.html">İletişim</a></li>
+					<li><a href="galeri.html">Galeri</a></li>
+					<li><button style="padding-top: 13px;" class="btn" data-toggle="modal"><a href="login.html">GİRİŞ YAP | ÜYE OL</a>
+					</li>
+					<li><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div>
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="img/port-1-title-img.jpg" width="1200" height="700">
+				<div class="carousel-caption">
+					<h3>ÖDEME</h3>
+				</div>      
+			</div>
+		</div>
+		<!-- Container (The Band Section) -->
+		<div id="band" class="container">
+			<h3 class="text-center"> 1.Sepet İçeriği  ->2.Adresim-> <strong> 3.Ödeme </strong></h3></br></br>
+			<div  class="row">
+
+				<div class="col-sm-8" style="padding-right: 50px; padding-left: 0px;" ><br><br>
+					<form>
+						<div class="form-group col-md-12">
+							<p style="font-size: 20px;"><b>Ödeme Şeklini Seçiniz</b></p>
+							<p><b>Online Ödeme</b></p>
+						</div> 
+						<div class="form-group col-md-12">
+							<label>Ad Soyad</label>
+							<input type="text" required class="form-control" placeholder="Kart sahibinin adı soyadı">
+						</div>
+						<div class="form-group col-md-12">
+							<label>Kart Numarası</label>
+							<input type="number" required class="form-control" placeholder="Kart Numarası.">
+						</div>
+						<div class="form-group col-md-3">
+							<label>Ay</label>
+							<select>
+								<option value="0">Ocak</option>
+								<option value="1">Şubat</option>
+								<option value="2">Mart</option>
+								<option value="3">Nisan</option>
+								<option value="4">Mayıs</option>
+								<option value="5">Haziran</option>
+								<option value="6">Temmuz</option>
+								<option value="7">Ağustos</option>
+								<option value="8">Eylül</option>
+								<option value="9">Ekim</option>
+								<option value="10">Kasım</option>
+								<option value="11">Aralık</option>
+							</select> 
+						</div>
+						<div class="form-group col-md-3">
+							<label>Yıl</label>
+							<select>
+								<option value="0">21</option>
+								<option value="1">22</option>
+								<option value="2">23</option>
+								<option value="3">24</option>
+								<option value="4">25</option>
+								<option value="5">26</option>
+								<option value="6">27</option>
+								<option value="7">28</option>
+							</select> 
+						</div>
+						<div class="form-group col-md-6">
+							<label>CVV</label>
+							<input type="number" required class="form-control" placeholder="3 Haneli kart no.">
+
+						</div> 
+						<div class="form-group col-md-12">
+							<input type="checkbox" id="rememberBox" style="width: 5%;">
+							<label for="rememberBox">Beni Hatırla</label>
+						</div> 
+						<div class="form-group col-md-12">
+							<p><b>Kapıda Ödeme </b></p>
+							<input type="radio" id="male" name="gender" value="male">
+							<p for="male">Kapıda Nakit Ödeme </p><br>
+							<input type="radio" id="female" name="gender" value="female">
+							<p for="female">Kredi Kartıyla Ödeme</p><br>
+
+						</div> 
+						<button href="index.html" type="submit" class="btn btn-block">Siparişi Tamamla</button>
+					</form>
+				</div>
+
+				<br><br><br>
+
+				<div class="col-sm-4" style="border-style: outset;  border-color: gray; background-image: url(img/21.jpg); ">
+					<h3 class="text-center">Sipariş Özeti</h3>
+
+					<div class="form-group" style="padding-left: 40px; padding-bottom: 10%;">
+						<div class="col-md-8">
+							<label>Ürün Adı</label>
+						</div>
+						<div class="col-md-4">
+							<label>50 TL</label>
+						</div>
+					</div>
+
+					<div class="form-group" style="padding-left: 40px; padding-bottom: 10%;">
+						<div class="col-md-8">
+							<label>Ürün Adı</label>
+						</div>
+						<div class="col-md-4">
+							<label>50 TL</label>
+						</div>
+					</div>
+
+					<div class="form-group" style="padding-left: 40px; padding-bottom: 10%;">
+						<div class="col-md-8">
+							<label>Ürün Adı</label>
+						</div>
+						<div class="col-md-4">
+							<label>95 TL</label>
+						</div>
+					</div>
+					<hr/>
+					<div class="form-group" style="padding-left: 40px; padding-bottom: 10%;">
+						<div class="col-md-8">
+							<label>Ürün Toplamı</label>
+						</div>
+						<div class="col-md-4">
+							<label>195 TL</label>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- Footer -->
+		<footer>
+			<a href="paying2.html">
+				<span class="glyphicon glyphicon-chevron-up" style="padding-left: 50%;"></span></a><br><br><br>      
+				<div class="row"  style="height: 50%;">
+					<div class="col-md-4" style="padding-left: 15%;">
+						<p>BİZİMLE PAYLAŞ !</p>
+						<p><span class="glyphicon glyphicon-map-marker"></span>Antalya,TURKEY</p>
+						<p><span class="glyphicon glyphicon-phone"></span>Phone:0555 555 55 55</p>
+						<p><span class="glyphicon glyphicon-envelope"></span> Email: mail@mail.com</p>
+					</div>
+					<div class="col-md-4 text-center">
+						<a href="index.html"><img src="img/logo.png"></a>
+						<h2><a href="index.html"> DELİGHT</a></h2><br>
+						<div class="col-md-4"></div>
+						<div class="col-md-4">
+							<div class="col-md-4 text-center">
+								<a target="blank" href="http://Instagram.com/" target=new class="fab fa-instagram"></a>
+							</div>
+							<div class="col-md-4 text-center">
+								<a target="blank" href="http://facebook.com" class="fab fa-facebook"></a>
+							</div>
+							<div class="col-md-4 text-center">
+								<a target="blank" href="http://twitter.com" class="fab fa-twitter"></a>
+							</div>
+
+						</div>
+					</div>
+					<div class="col-md-4" style="padding-left: 10%;">
+						<p  style="padding-left: 7%;">SAYFALAR</p>
+						<ul>
+							<li><a href="about.html"> Hakkımızda</a></li>
+							<li><a href="product.html">Ürünlerimiz</a></li>
+							<li><a href="sube.html">Şubeler</a></li>
+							<li><a href="contact.html">İletişim</a></li>
+							<li><a href="galeri.html">Galeri</a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+
+		</body>
+		</html>
